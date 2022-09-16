@@ -1,0 +1,54 @@
+body {
+	background: black;
+	font-family: "Chilanka", cursive;
+}
+/** {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+.postcard {
+	background: white;
+	width: 670px;
+	height: 360px;
+	margin: auto;
+	padding: 20px;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header h1 {
+	width: 650px;
+	margin: 0%;
+}
+.postcard-header img {
+	width: 50px;
+	height: 60px;
+}
+.postcard-body {
+	display: flex;
+}
+.postcard-body .body-left {
+	padding: 5px;
+}
+.postcard-body .body-right {
+	padding: 5px;
+}
+.postcard-body .body-right input {
+	border: none;
+	border-bottom: 1px solid grey;
+	font-family: "Chilanka", cursive;
+}
+.postcard-body .body-left p {
+	font-size: 1em;
+}
+.sinmargen {
+	margin-top: 0px;
+}
+.postcard-footer {
+	text-align: center;
+}
+.postcard-footer button {
+	background-color: darkgrey;
+	padding: 5px;
+	font-family: "Chilanka", cursive;
+}
